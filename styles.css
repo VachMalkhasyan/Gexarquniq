@@ -1,0 +1,192 @@
+body{
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+overflow-y:hidden; 
+overflow-x:hidden;
+}
+nav{
+    position: fixed;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.menu-4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-image: url();
+    font-size: 20px;
+ 
+  }
+  
+  
+  .menu-4 * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .menu-4 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+  }
+  .menu-4 a {
+    padding: 0.3em 0;
+    color: #212121;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+  }
+  .menu-4 a:before,
+  .menu-4 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .menu-4 a:before {
+    bottom: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #e67e22;
+  }
+  .menu-4 a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: #212121;
+    white-space: nowrap;
+  }
+  .menu-4 li:hover a {
+    transform: translateY(100%);
+  }
+  
+
+.main_page{
+    font: 300 16px Helvetica,arial, sans-serif;
+    text-align: center;
+    background-image:url(https://images.wallpapersden.com/image/download/day-of-lake-sevan-sevan-armenia_ZmtlbW6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: 100%;
+
+}
+button{
+  border: medium none;
+  background-image: none; 
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  font-size: 20px;
+}
+.spring_page{
+    background-image: url(http://sarvor.com/wp-content/uploads/2020/03/IMG_2333-scaled.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: 100%;
+}
+
+.summer_page{ background-image: url(https://s2.wklcdn.com/image_165/4960839/38849329/25154987Master.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: 100%;
+}
+.autumn_page{ background-image: url(https://s1.wklcdn.com/image_165/4960839/88292496/57637228Master.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: 100%;
+}
+.winter_page{ background-image: url(https://s1.wklcdn.com/image_165/4960839/61475960/40921066Master.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: 100%;
+}
+div{
+    width: 100%;
+    height: 900px;
+}
+.qartez{
+    max-width: auto;
+    max-height: auto;
+    float: left;
+  transform: translate(-300px, 90px);
+}
+.barigalust{
+    font-size: 25px;
+    transform: translateY(80px);
+}
+.textgexarq{
+  width: auto;
+
+}
+.textgex{
+  width: auto;
+}
+
+
+
+
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+.button-51{
+  transform: translate(1100px,700px);
+}
