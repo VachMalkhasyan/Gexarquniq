@@ -73,7 +73,7 @@ nav{
 .main_page{
     font: 300 16px Helvetica,arial, sans-serif;
     text-align: center;
-    background-image:url(https://images.wallpapersden.com/image/download/day-of-lake-sevan-sevan-armenia_ZmtlbW6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+    background-image:url(./img/lakesevanmainphoto.jpg);
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position:center;
@@ -89,7 +89,7 @@ button{
   font-size: 20px;
 }
 .spring_page{
-    background-image: url(http://sarvor.com/wp-content/uploads/2020/03/IMG_2333-scaled.jpg);
+    background-image: url(./img/springphoto.jpg);
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position:center;
